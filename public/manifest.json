@@ -1,0 +1,17 @@
+{
+  "short_name": "Tap Chat",
+  "name": "WhatsApp Tap Chat — Kirim Pesan Tanpa Simpan Nomor",
+  "description": "Kirim pesan WhatsApp instan tanpa simpan kontak. Auto-format +62, template pesan kurir, dan cepat digunakan.",
+  "icons": [
+    {
+      "src": "/vite.svg",
+      "type": "image/svg+xml",
+      "sizes": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#ffffff",
+  "theme_color": "#128C7E",
+  "display": "standalone",
+  "orientation": "portrait"
+}

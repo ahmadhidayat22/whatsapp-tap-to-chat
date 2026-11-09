@@ -1,0 +1,6 @@
+# robots.txt for WhatsApp Tap Chat
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://whatsapp-tap-chat.vercel.app/sitemap.xml

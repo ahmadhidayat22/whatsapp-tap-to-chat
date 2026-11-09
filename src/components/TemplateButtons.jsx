@@ -115,7 +115,7 @@ function TemplateButtons({ selectedMessage, onToggle, currentMessage }) {
   }
 
   function handleResetDefault() {
-    if (window.confirm('Kembalikan ke 3 template bawaan awal?')) {
+    if (window.confirm('Kembalikan ke template bawaan awal?')) {
       setTemplates(defaultTemplates)
       setEditingId(null)
       setShowAddForm(false)
@@ -253,7 +253,7 @@ function TemplateButtons({ selectedMessage, onToggle, currentMessage }) {
               <div className="flex justify-between items-center mb-1.5">
                 <div className="flex items-center gap-1.5">
                   <span className="text-[11px] font-bold text-wa-green-dark bg-wa-green/15 px-2 py-0.5 rounded-full">
-                    #{index + 1}
+                    Template {index + 1}
                   </span>
                   <span
                     className={`text-[10px] font-bold tracking-wider px-2 py-0.5 rounded-md uppercase transition-all ${
